@@ -5,7 +5,7 @@ import React from "react";
 
 const SearchBar = ({ handleSubmit, ip, setIp, fetchData }: any) => {
   return (
-    <section className="lg:w-[30rem] md:w-[25rem] sm-[25rem]  ">
+    <section className="lg:w-[30rem] md:w-[25rem] sm-[25rem] ">
       <form action="" onSubmit={(e) => handleSubmit(e)} className="w-[100%] ">
         <div className="w-[100%] h-[2.5rem] lg:h-[3rem] sm:h-[2.5rem] flex justify-between border rounded-lg">
           <div className="w-[100%]">
